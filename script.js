@@ -7,7 +7,7 @@ document.getElementById("calcForm").addEventListener("submit", function (e) {
 
   // API URL from Astra Langflow (from cURL)
   const apiUrl =
-    "https://api.langflow.astra.datastax.com/lf/dba738d8-811d-4aba-ade7-e771b393b659/api/v1/run/4df5aa5c-a0b2-49a3-8469-b824de51da93?stream=false";
+    "https://cors-anywhere.herokuapp.com/https://api.langflow.astra.datastax.com/lf/dba738d8-811d-4aba-ade7-e771b393b659/api/v1/run/4df5aa5c-a0b2-49a3-8469-b824de51da93?stream=false";
 
   // API Token generated from Astra (from cURL)
   const apiToken = "AstraCS:BRZvYMoGgBwKtWsYyRcImLcr:342dd29f468688fa3a3002447f0a6430f46eeeffba43a3afc5a09739b5e4ec29"; // <-- Replace this with the correct token
